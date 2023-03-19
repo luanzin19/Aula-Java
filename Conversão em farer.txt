@@ -1,0 +1,21 @@
+package projeto;
+
+import java.util.Scanner;
+
+public class Farer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		
+		
+		System.out.println("Informe a prova em f: ");
+		double F = entrada.nextDouble();
+		double C = (5* (F - 35) / 9);
+		System.out.println("O valor da prova é : " + C + "°C" );
+	}
+
+}
