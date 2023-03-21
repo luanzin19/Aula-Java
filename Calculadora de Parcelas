@@ -1,0 +1,30 @@
+package projeto;
+
+import java.util.Scanner;
+
+public class TresAmiogos {
+
+	public static void main(String[] args) {
+		    // TODO Auto-generated method stub
+		
+		
+		
+		     Scanner sc = new Scanner(System.in);
+		     
+		     
+		     
+		     System.out.println("Qual o valor total?");
+                int ValorT = sc.nextInt();
+                
+                
+                System.out.println("Qual A quantidae de parcelas? :");
+                int Parcelas = sc.nextInt();
+                
+              
+                
+                double Valor = ValorT / Parcelas;
+               
+                System.out.println("O valor das parcelas é : " + Valor);
+	}
+
+}
