@@ -1,0 +1,23 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner vd = new Scanner(System.in);
+
+		System.out.println("Qual o valor?");
+
+		double V1 = vd.nextDouble();
+
+		System.out.println("Qual o valor da divisão?");
+
+		double V2 = vd.nextDouble();
+ 
+		double Resultado = V1 * V2;
+		
+		
+		
+		System.out.println("o resultado é :" +  Resultado);
+		
+		
+	}
+
+}
