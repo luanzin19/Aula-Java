@@ -1,0 +1,45 @@
+public class Sorvete {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Qual sabor você deseja?, " + " Digite C para chocolate M para morango : ");
+		
+		String sabor = sc.nextLine();
+		
+	    if(sabor.contentEquals("C")) {
+	    		
+	    System.out.print("Quantas bolas de sorvete você deseja? : ");
+	    int qtdb = sc.nextInt();
+	    
+	    if ( qtdb >3 ) { 
+	    
+	    	System.out.println("Você recebeu um desconto de 10%! ");
+	    
+	    } else { 
+	    
+	    	System.out.println("Você recebeu um desconto de 5%! ");
+	 
+	    }
+		
+	    } else if (sabor.equalsIgnoreCase("M")) {
+		
+	    	System.out.println("Sorvete de morango não tem desconto! ");
+		
+	    } else { 
+		    
+	    	System.out.println("Sabor de sorvete invalido ");
+	 
+	    }
+		
+		
+		
+		
+	    }
+	}
+
+
